@@ -1,0 +1,52 @@
+#listing{
+    background-color: offwhite;
+    max-height: 600px;
+    width: 200px;
+    color: white;
+    overflow-y: scroll;
+    float:left;
+  }
+
+  .decor{
+    background-color: teal;
+    color: white;
+    
+    }
+
+  .collection-item{
+    height: 50px;
+    width: 200px;
+    color: lightblue;
+  }  
+
+  #result{     
+     background-color: white;     
+     float:left;
+     position: absolute;
+     margin: 50px;
+     left:30%;
+  }
+
+  #cardborder{
+    border: 5px solid white;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.1);
+    border-radius:4px;
+    padding: 5px;    
+  }
+
+  a:hover{
+    background-color: lightgrey
+  }
+
+
+  @media screen and (max-width: 600px) {
+    #result{
+      width:50%;
+      position:-ms-page;
+    }
+    #listing{
+       width:30%;
+    }
+
+}
+
